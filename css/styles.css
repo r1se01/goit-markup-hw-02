@@ -1,0 +1,150 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #e7e9fc;
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.header-item {
+}
+.header-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: #2e2f42;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.header-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-tel {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.hero {
+}
+.hero-list:hover {
+}
+.hero-btn:hover {
+  color: #ffffff;
+}
+.hero-btn:focus {
+  color: #ffffff;
+}
+.hero-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #e7e9fc;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.hero-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.portfolio {
+}
+.portfolio-list {
+}
+.portfolio-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.portfolio-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 115px;
+  height: 22px;
+  left: 156px;
+  top: 1864px;
+}
+.footer-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
