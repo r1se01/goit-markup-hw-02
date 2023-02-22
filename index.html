@@ -5,63 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
 
   <body>
-    <header>
+    <header class="hw-1-header">
       <nav>
-        <a href="."></a>
+        <a href="./index.html"></a>
       <img src="./images/Logo.svg" alt="logo" />
         </a>
 
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="./portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <ul class="hw-1-header-list list">
+          <li class="hw-1-header-item"><a href="">Studio</a></li>
+          <li class="hw-1-header-item"><a href="./portfolio.html">Portfolio</a></li>
+          <li class="hw-1-header-item"><a href="">Contacts</a></li>
         </ul>
       </nav>
 
       <ul>
-       <address><li><a href="info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+       <address class="hw-1-header-address list">
+        <li class="hw-1-header-mail"><a href="info@devstudio.com">info@devstudio.com</a></li>
+        <li class="hw-1-header-tel"><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
       </ul></address> 
     </header>
 
     <main>
       <!-- Герой -->
-      <section>
-        <h1>
+      <section class="hw-1-hero">
+        <h1 class="hw-1-hero-title">
           Effective Solutions for Your Business
         </h1>
-        <button type="button">Order Service</button>
+        <button class="hw-1-hero-btn" type="button">Order Service</button>
       </section>
+
+
       <!-- Наші стратегії -->
-      <section>
-        <ul>
+      <section class="hw-1-strategy ">
+        <ul class="hw-1-strategy-list list">
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="hw-1-strategy-title">Strategy</h3>
+            <p class="hw-1-strategy-subtitle">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="hw-1-strategy-title">Punctuality</h3>
+            <p class="hw-1-strategy-subtitle">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
+          <li class="hw-1-strategy-subtitle">
+            <h3 class="hw-1-strategy-title">Diligence</h3>
             <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="hw-1-strategy-title">Technologies</h3>
+            <p class="hw-1-strategy-subtitle">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -70,7 +77,7 @@
       </section>
 
       <!-- Чим ми займаємося -->
-      <section>
+      <section class="hw-1-do">
         <h2>What are we doing</h2>
         <img
           src="./images/monitor.jpg"
@@ -93,9 +100,9 @@
       </section>
 
       <!-- Наша команда -->
-      <section>
-        <h2>Our team</h2>
-        <ul>
+      <section class="hw-1-team list">
+        <h2 class="hw-1-team-title">Our team</h2>
+        <ul class="hw-1-team-item list">
           <li>
             <img
               src="./images/team-1.jpg"
@@ -103,8 +110,8 @@
               width="264"
            
             />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="hw-1-team-name">Mark Guerrero</h3>
+            <p class="hw-1-team-subtitle">Product Designer</p>
           </li>
           <li>
             <img
@@ -113,8 +120,8 @@
               width="264"
              
             />
-             <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
+             <h3 class="hw-1-team-name">Tom Ford</h3>
+            <p class="hw-1-team-subtitle">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -123,8 +130,8 @@
               width="264"
              
             /> 
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
+            <h3 class="hw-1-team-name">Camila Garcia</h3>
+            <p class="hw-1-team-subtitle">Marketing</p>
           </li>
           <li>
             <img
@@ -133,8 +140,8 @@
               width="264"
              
             />
-             <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
+             <h3 class="hw-1-team-name">Daniel Wilson</h3>
+            <p class="hw-1-team-subtitle">UI Designer</p>
           </li>
         </ul>
 
