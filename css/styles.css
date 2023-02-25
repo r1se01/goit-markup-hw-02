@@ -9,43 +9,56 @@ body {
   text-decoration: none;
 }
 
-/* HW-1 */
-.hw-1-header {
+.logo {
+  color: #4d5ae5;
 }
-.hw-1-header-list {
+.logo-span {
+  color: #2e2f42;
+}
+
+/* HW-1 */
+.hw-header {
+}
+.hw-header-list {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.hw-1-header-item {
+.hw-header-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.hw-1-header-address {
+.hw-header-address {
 }
-.hw-1-header-mail {
+.hw-header-mail {
   font-size: 16px;
   line-height: 1.5;
 
   color: #434455;
 }
-.hw-1-header-tel {
+.hw-header-tel {
   font-size: 16px;
   line-height: 1.5;
 
   color: #434455;
 }
 
-.hw-1-hero {
+.hw-hero {
   background-color: #2e2f42;
 }
-.hw-1-hero-title {
+.hw-hero-title {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-.hw-1-hero-btn {
+.hw-hero-btn {
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
@@ -53,41 +66,45 @@ body {
   color: #ffffff;
   background-color: #4d5ae5;
 }
-.hw-1-strategy {
+.hw-strategy {
 }
-.hw-1-strategy-list {
+.hw-strategy-list {
 }
 
-.hw-1-strategy-title {
+.hw-strategy-title {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.hw-1-strategy-subtitle {
+.hw-strategy-subtitle {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.hw-1-do {
+.hw-do {
 }
-.hw-1-team {
+.hw-team {
 }
 .list {
 }
-.hw-1-team-title {
+.hw-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
 }
-.hw-1-team-item {
+.hw-team-item {
 }
-.hw-1-team-name {
+.hw-team-name {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.hw-1-team-subtitle {
+.hw-team-subtitle {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -117,18 +134,25 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
-
+  color: #2e2f42;
+}
+.header-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .header-mail {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .header-tel {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -136,6 +160,11 @@ body {
 }
 
 .hero {
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
 .hero-list:hover {
 }
@@ -148,9 +177,6 @@ body {
 .hero-list {
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #e7e9fc;
 }
@@ -159,9 +185,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
 }
